@@ -8,6 +8,7 @@ const typeDefs = gql`
   type Record {
     front: String
     back: String
+    deck: Deck
   }
   type Query {
     decks: [Deck]
